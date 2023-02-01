@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
@@ -34,4 +34,42 @@
       });
     </script>
   </body>
+</html> -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Lecteur audio</title>
+  </head>
+  <body>
+    <h1>Lecteur audio</h1>
+    <!-- Premier lecteur audio -->
+    <div class="audio-player">
+      <h2>Piste 1</h2>
+      <audio id="audio-player-1" controls>
+        <source src="./Audio/Audio_1.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <div class="control-buttons">
+        <button id="play-button-1">Jouer</button>
+        <button id="pause-button-1">Pause</button>
+      </div>
+    </div>
+
+    <!-- Deuxième lecteur audio -->
+    <div class="audio-player">
+      <h2>Piste 2</h2>
+      <audio id="audio-player-2" controls>
+        <source src="./Audio/Audio_1.wav" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <div class="control-buttons">
+        <button id="play-button-2">Jouer</button>
+        <button id="pause-button-2">Pause</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
+

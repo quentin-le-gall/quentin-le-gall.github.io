@@ -8,3 +8,21 @@ body {
     color: white;
   }
   
+/* Style pour le lecteur audio */
+.audio-player {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+/* Style pour les boutons de contrôle */
+.control-buttons button {
+  border: none;
+  background-color: lightgray;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
