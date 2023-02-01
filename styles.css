@@ -7,8 +7,8 @@ body {
   h1 {
     color: white;
   }
-  
-/* Style pour le lecteur audio */
+
+/*  Style pour le lecteur audio 
 .audio-player {
   display: flex;
   flex-direction: row;
@@ -17,7 +17,7 @@ body {
   margin: 20px 0;
 }
 
-/* Style pour les boutons de contrôle */
+ Style pour les boutons de contrôle 
 .control-buttons button {
   border: none;
   background-color: lightgray;
@@ -25,4 +25,4 @@ body {
   padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
-}
+}*/
