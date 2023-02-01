@@ -2,10 +2,23 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Mon Site Web</title>
+    <title>Lecteur audio</title>
   </head>
   <body>
-    <h1>Bienvenue sur mon site web!</h1>
-    <p>Ceci est un exemple de page web en HTML.</p>
+    <h1>Lecteur audio</h1>
+    <audio id="audio-player" controls>
+      <source src="./Audio/Audio_1.wav" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <br><br>
+    <button id="play-button">Jouer</button>
+    <script>
+      const audioPlayer = document.querySelector("#audio-player");
+      const playButton = document.querySelector("#play-button");
+
+      playButton.addEventListener("click", function() {
+        audioPlayer.play();
+      });
+    </script>
   </body>
 </html>
