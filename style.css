@@ -20,7 +20,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 0;
+  /* margin: 20px 0; */
 }
 
  /* Style pour les boutons de contrôle 
