@@ -19,5 +19,19 @@
         audioPlayer.play();
       });
     </script>
+
+    
+    <audio id="audio-player" controls>
+      <source src="./Audio/Audio_1.wav" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <br><br>
+    <script>
+      const audioPlayer2 = document.querySelector("#audio-player");
+
+      playButton.addEventListener("click", function() {
+        audioPlayer2.play();
+      });
+    </script>
   </body>
 </html>
